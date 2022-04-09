@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>dinnerdash | Backoffice</title>
+</head>
+<body>
+    <header>
+        <div id="header-cima">
+            <h2 id="home">dinnerdash</h2>
+            <div id="botoes-header">
+                <a href="#">backoffice</a>
+                <a href="#">perfil</a>
+                <a href="#">sair</a>
+            </div>
+        </div>
+        <div>
+            <h1 id="titulo-principal">Backoffice</h1>
+            <p id="descricao-header">Gerencie pedidos, refeições e mais.</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="menu-principal">
+            <button class="botoes-menu">Pedidos</button>
+            <button class="botoes-menu">Usuários</button>
+            <button class="botoes-menu">Refeições</button>
+            <button class="botoes-menu">Categorias de Refeição</button>
+        </div>
+
+        <table id="usuarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Cadastrado em</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="dados-usuarios">
+            </tbody>
+        </table>
+
+        <div class="paginas" id="paginas">
+        </div>
+    </main>
+
+    <footer>
+        <span class="text-footer">dinnerdash | todos os direitos reservados</span>
+        <span class="text-footer">desenvolvido por Trainee Legal</span>
+    </footer>
+</body>
+</html>
